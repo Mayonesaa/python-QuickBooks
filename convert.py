@@ -69,6 +69,6 @@ def main(input_file_name):
 if __name__ == '__main__':
 
     if len(sys.argv) != 2:
-        print "usage:   python convert.py input.csv"
+        print("usage:   python convert.py input.csv")
 
     main(sys.argv[1])
